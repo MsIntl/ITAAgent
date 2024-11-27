@@ -20,10 +20,16 @@ import { firebase } from '@genkit-ai/firebase';
 import { vertexAI } from '@genkit-ai/vertexai';
 
 // Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  // ...
-  projectId: 'REPLACE_WITH_YOUR_PROJECT_ID',
-  // ...
+  apiKey: "AIzaSyCx88HIKfIHaC2rufGMHcsf8yh1EUYD-_U",
+  authDomain: "ita-app-bfa96.firebaseapp.com",
+  databaseURL: "https://ita-app-bfa96-default-rtdb.firebaseio.com",
+  projectId: "ita-app-bfa96",
+  storageBucket: "ita-app-bfa96.appspot.com",
+  messagingSenderId: "616870604063",
+  appId: "1:616870604063:web:0338a8bb3b9bad4080142a",
+  measurementId: "G-ZXNN416R9V"
 };
 
 export const getProjectId = () => {
